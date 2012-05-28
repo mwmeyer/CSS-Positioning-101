@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Relative Positioning</title>
+	<style>
+
+	/* Relative positioning follows the normal flow (elements stack on top of one another along the y-aixs) 
+	just like static positioning but unlike static, relative can be offset using properties like top, left, right, etc. */
+
+		#red_box { 
+		position: static;
+		width: 200px;
+		height: 200px;
+		background: #ee3e64;
+		left: 200px;  /* doesn't work */
+		}
+
+		#blue_box { 
+		position: relative;
+		width: 200px;
+		height: 200px;
+		background: #44accf;
+		left: 200px;  /* this moves box_2 because it is relativly positioned */
+		}
+
+		#green_box { 
+		position: static;
+		width: 200px;
+		height: 200px;
+		background: #b7d84b;
+		left: 200px;  /* doesn't work */
+		}
+	</style>
+</head>
+<body>
+	<div id="red_box" class="box">Static</div>
+	<div id="blue_box" class="box">Relative</div>
+	<div id="green_box" class="box">Static</div>
+</body>
+</html>
