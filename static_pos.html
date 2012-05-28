@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Static Positioning</title>
+	<style>
+
+	/* Static positioning is the default positioning for html elements. 
+	In static positioning, html elements follow the normal flow and stack on top of one another along the y-aixs in the order they occur within the document. 
+	Static positioning can be used for very basic websites that require little formatting on the page because offsetting properties like top, left, right, etc. do not work with this positioning. */
+
+		#red_box { 
+			position: static;
+			width: 200px;
+			height: 200px;
+			background: #ee3e64;
+		}
+		#blue_box { 
+			position: static;
+			width: 200px;
+			height: 200px;
+			background: #44accf;
+			/*left: 200px; does not move the box from the left 200px because static position does not support this.*/
+		}
+		#green_box { 
+			position: static;
+			width: 200px;
+			height: 200px;
+			background: #b7d84b;
+		}
+	</style>
+</head>
+<body>
+	<div id="red_box" class="box">Static</div>
+	<div id="blue_box" class="box">Static</div>
+	<div id="green_box" class="box">Static</div>
+</body>
+</html>

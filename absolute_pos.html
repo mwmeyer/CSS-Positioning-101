@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Absolute Positioning</title>
+	<style>
+
+	/* Absolutely positioned elements do not follow the normal flow. 
+	Instead they stack over one another along the z-axis if their positioning is such that an overlap might occur. 
+	This is because absolute positioning puts the element absolutely in the specified area. 
+	Think of absolute like velcrow. Where ever you specifiy the element should stick it will stick.*/
+
+		#red_box { 
+			position: absolute;
+		 	top: 0;
+		 	left: 0;
+		 	width: 200px;
+		 	height: 200px;
+			background: #ee3e64;
+		}
+		#blue_box { 
+			position: absolute;
+		 	top: 0;
+		 	right: 0;  /* Changing this line to left: 0; instead of right: 0; will illustrate the overlap effect that is possible with absolute. */
+		 	width: 200px;
+		 	height: 200px;
+			background: #44accf;
+		}
+		#green_box { 
+			position: absolute;
+		 	bottom: 0;
+		 	left: 0;
+		 	width: 200px;
+		 	height: 200px;
+			background: #b7d84b;
+		}
+		#yellow_box { 
+			position: absolute;
+		 	bottom: 0;
+		 	right: 0;
+		 	width: 200px;
+		 	height: 200px;
+			background: #ebde52;
+		}
+	</style>
+</head>
+<body>
+	<div id="red_box">Absolute</div>
+	<div id="blue_box">Absolute</div>
+	<div id="green_box">Absolute</div>
+	<div id="yellow_box">Absolute</div>
+</body>
+</html>
