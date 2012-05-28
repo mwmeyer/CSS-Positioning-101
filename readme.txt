@@ -11,6 +11,6 @@ There are 5 values available to the css position property:
 
 Each value has its own file in this repository with a brief description and demonstration of their use.
 
-The code in this repo is adapted from the examples found at the tutorial found here: http://www.alistapart.com/articles/css-positioning-101/ 
+The code in this repo is adapted from the examples found at the tutorial here: http://www.alistapart.com/articles/css-positioning-101/ 
 
 If you want to learn about css positioning, that excellent article is a must read. 
