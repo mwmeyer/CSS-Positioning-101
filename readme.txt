@@ -1,6 +1,6 @@
 CSS Positioning 101
 
-Trying to position your html without fully understanding the css position property is like trying riding a bike in total darkness. It's easy, if you would just remove the blind fold. Take some time and mess around with the code provided here to once and for all be aware of what little there is to know about basic css positioning.
+Trying to position your html without fully understanding the css position property is like trying to ride a bike in the dark. It's easy, if you would just remove the blind fold. Take some time and mess around with the code provided here to once and for all be aware of what little there is to know about basic css positioning.
 
 There are 5 values available to the css position property:
 1.static
